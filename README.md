@@ -1,3 +1,16 @@
+# Note
+Anima doesn't allow to export code on free version, so I copy and pasted the code into a Create-React-App boilerplate.
+
+My observations:
+1. Need to export image from Figma manually and place it into the proper directory. (this is because I manually copy paste code, I expect paid version does this automatically)
+2. Need to label my layers in Figma properly as the output HTML will be based on it.
+3. It seems hidden layers in Figma is not honoured as it'll generate the output HTML container.
+4. Some middle alignment issues (see the rating stars alignment and filter button alignment)
+5. Flexible layout doesn't work (probably paid version generated code fixes this)
+6. Since Anima can't export various button states, looks like that will need to be coded manually.
+7. Anima can do grouped components which I guess will make the code easier to read? [YouTube Video](https://www.youtube.com/watch?v=ocs0R5VC6Pc&feature=emb_title)
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
